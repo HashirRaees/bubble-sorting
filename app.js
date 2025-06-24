@@ -1,6 +1,7 @@
 // Task 23/06/2025
 var sorting = [4, 6, 3, 1, 9];
 console.log(sorting);
+document.write("before [" + sorting + "]" + "<br>" + "<br>");
 
 function sort() {
   for (let i = 0; i < sorting.length; i++) {
@@ -19,4 +20,5 @@ function sort() {
 }
 sort(sorting);
 console.log(sorting);
+document.write("after [" + sorting + "]" + "<br>" + "<br>");
 // result = [1, 3, 4, 6, 9];
